@@ -144,6 +144,8 @@ def collision():
     
     for segment in body:
         if segment.distance(head) < 20: return True
+        
+    return False
 
 def reset ():
     global score
